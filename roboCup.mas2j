@@ -1,0 +1,11 @@
+MAS roboCup {
+
+	infrastructure: Centralised
+
+	environment: RoboCupEnvironment("BJNS")
+
+	agents: sampleagent sampleagent;
+		
+	aslSourcePath:
+		"src/asl";
+}
